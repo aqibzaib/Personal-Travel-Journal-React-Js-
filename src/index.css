@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  margin: 1rem auto;
+  font-family: "inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  margin: 0, auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin-bottom: 1.5rem;
+}
+.main--left img {
+  width: 125px;
+  height: 168px;
+
+  border-radius: 5px;
+}
+.main--right {
+  margin-left: 1rem;
+  padding-left: 1rem;
+
+  text-align: start;
+}
+.location .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-left: 0.3rem;
+
+  color: #2b283a;
+}
+.location .icon {
+  background-color: white;
+  color: rgb(155, 83, 83);
+  width: 7px;
+  height: 8.3px;
+  margin-bottom: 1.9px;
+}
+.place {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-top: 0.4rem;
+}
+.discripton {
+  margin-top: 0rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  /* or 15px */
+
+  color: #2b283a;
+}
+.startdate,
+.enddate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+.map--location {
+  margin-left: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
